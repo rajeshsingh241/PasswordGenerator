@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGenerator</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- pehla do line jo h wo connect karta h fonts ke website se ko aur tisra line jo h wo load karta h -->
+<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="Images/security.svg" />
+</head>
+<body>
+<div class = 'container'>
+ <div>
+<h1>Password Generator</h1>
+<div class="displayContainer">
+    <input class="passwordDisplay" id="pass1" readonly placeholder="password">
+    <button class="bb" >
+        <span class="msgcopy"> </span>
+        <img src="Images/copy.svg " width="23" height="23">
+    </button>
+    <!-- readonly placeholder="password" ye password ke liye hota h jo sirf read kar sake placeholder isliye ki uspe name likha aaye suru se password andar me-->
+</div>
+
+
+<div>
+    <div class="lengthContainer">
+    <p class="pissoff">Password Length</p>
+    <p class="length">10</p>
+ </div>
+<!-- for slider 
+ In HTML, the step attribute is used with input elements (especially of type number, range, date, etc.)
+  to define the interval or increment value allowed for that input.
+  so step =1 ka matlab h ki ek baar me ek hi value badhega  -->
+<input type="range" min="1" max="20" class="slider" step-1 data-lengthSlider>
+<div class="check">
+   
+    <input type="checkbox" id="uppercase" >
+      <label for="uppercase">Include Uppercase letters</label>
+</div>
+
+<div class="check">
+   
+    <input type="checkbox" id="lowercase" >
+    <label for="lowercase">Include Lowercase letters</label>
+</div>
+
+<div class="check">
+  
+    <input type="checkbox" id="numbers">
+      <label for="numbers">Include numbers</label>
+</div>
+
+<div class="check">
+    
+    <input type="checkbox" id="symbols" >
+    <label for="symbols">Include Symbols</label>
+</div>
+<div class="strength">
+    <p>Strength</p>
+<div class="circle"></div>
+</div>
+<button class="generateBtn">Generate Password</button>
+
+</div>
+ </div>
+    <script src="index.js"></script>
+</body>
+</html>
