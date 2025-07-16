@@ -288,6 +288,14 @@ h1{
     opacity: 1;
     transform: scale(1);
 }
+@media screen and (max-width: 480px) {
+  .generate-btn {
+    margin-bottom: 20px; /* Optional: space below */
+    margin-top: 10px; /* Uplift slightly */
+    position: relative;
+    top: -10px; /* Moves the button up */
+  }
+}
 
 /* //in case of mozilla firefox */
 /* 
