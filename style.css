@@ -65,6 +65,7 @@ overflow-y: hidden;
 .container{
       width: 90%;
     max-width: 450px;
+     padding-bottom: 20px;
 }
 h1{
    color:var(--pl-white);
