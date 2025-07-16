@@ -1,6 +1,6 @@
 Password Generator
 Password Generator is a sleek and user-friendly web application designed to help you create strong, secure passwords tailored to your needs. Whether you want a quick password for everyday use or a highly complex one for enhanced security, this tool has you covered.
-![Description of GIF](./assets/PassWord.gif)
+![Password Generator GIF](Assets/PassWord.gif)
 
 Features
 Customizable Password Length: Easily adjust the length of your password using the intuitive slider.
