@@ -296,6 +296,11 @@ h1{
     top: -10px; /* Moves the button up */
   }
 }
+@media screen and (max-width: 480px) {
+  .container {
+    padding-bottom: 50px; /* Prevent content overflow */
+  }
+}
 
 /* //in case of mozilla firefox */
 /* 
